@@ -1,0 +1,105 @@
+/*WHOLE DOCUMENT STYLES*/
+
+html {
+  font-family: "Open-sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+/*NAVBAR STYLES*/
+
+.navbar-default .navbar-nav {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#active {
+    color: #399bd1;
+}
+
+#active:hover {
+    color: #399bd1;
+}
+
+/*JUMBOTRON STYLES*/
+
+.jumbotron {
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  background-position: center;
+}
+
+.jumbotron-snow1 {
+  background-image: url(../images/snow1.jpg);
+}
+
+.jumbotron-snow2 {
+  background-image: url(../images/snow2.jpg);
+}
+
+.jumbotron-snow3 {
+  background-image: url(../images/snow3.jpg);
+}
+
+.jumbotron-snow4 {
+  background-image: url(../images/snow4.jpg);
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  padding-top: 11.85rem;
+  font-family: Monoton;
+  font-size: 10rem;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+/*@media only screen and (max-width: 470px) {*/
+/*.jumbotron h1 {*/
+/*    font-size: 4rem;*/
+/*  }*/
+/*}*/
+
+.jumbotron p {
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+}
+
+.image-container img{
+  opacity: 0.7;
+  width: 100%;
+}
+
+.image-container img:hover {
+  transition:transform .5s, opacity .5s;
+	opacity:1;
+  transform: scale(1.07);
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.carousel p {
+  padding-bottom: 3rem;
+}
+
+.btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
