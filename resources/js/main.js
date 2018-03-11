@@ -18,6 +18,6 @@ $(document).ready(function(){
     arrows: false,
     draggable: false,
     pauseOnFocus: false,
-    pauseOnHover: false
+    pauseOnHover: true
   });
   });
