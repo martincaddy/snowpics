@@ -1,0 +1,23 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+/*NAVBAR STYLES*/
+
+.navbar-default .navbar-nav {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#active {
+    color: #399bd1;
+}
+
+#active:hover {
+    color: #399bd1;
+}
