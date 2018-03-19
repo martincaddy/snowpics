@@ -37,16 +37,16 @@ body {
   background-image: url(../images/snow1.jpg);
 }
 
-.jumbotron-snow2 {
-  background-image: url(../images/snow2.jpg);
+.jumbotron-killerton {
+  background-image: url(../images/killerton.jpg);
 }
 
-.jumbotron-snow3 {
-  background-image: url(../images/snow3.jpg);
+.jumbotron-edinburgh {
+  background-image: url(../images/edinburgh.jpg);
 }
 
-.jumbotron-snow4 {
-  background-image: url(../images/snow4.jpg);
+.jumbotron-majorca {
+  background-image: url(../images/majorca.jpg);
 }
 
 .jumbotron h1 {
