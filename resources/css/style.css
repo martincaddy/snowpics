@@ -124,3 +124,20 @@ body {
   padding-left: 1rem;
   padding-top: 1.5rem;
 }
+
+.fontawesome {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+
+.fontawesome a {
+  padding-left: 1rem;
+  transition: 0.3s ease;
+}
+
+.fontawesome a:hover {
+  color: #0099ff;
+}
+
